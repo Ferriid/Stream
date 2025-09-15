@@ -1,29 +1,35 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+# Build output
+/out/
+target/
+build/
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# IntelliJ IDEA files
+.idea/
+*.iws
+*.iml
+*.ipr
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Logs
+*.log
 
-### VS Code ###
-.vscode/
-
-### Mac OS ###
+# OS specific
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# Gradle
+.gradle/
+!gradle-wrapper.jar
+**/build/
+
+# Maven
+log/
+*.class
+*.jar
+*.war
+*.ear
+
+# Temporary files
+*.swp
+*.swo
+*~
