@@ -18,13 +18,24 @@ public class Main {
         System.out.println(word);
 //4
         List<Integer> numbers2 = Arrays.asList(5, 12, 7, 20, 25, 30, 3);
+<<<<<<< HEAD
         //Use filter to keep only numbers greater than 10.
         var numbersGreaterThan10= numbers2.stream().filter(num -> num>10).toList();
         System.out.println(numbersGreaterThan10);
 
         //Use map to multiply each remaining number by 2.
+=======
+
+        var numbersGreaterThan10= numbers2.stream().filter(num -> num>10).toList();
+        System.out.println(numbersGreaterThan10);
+        
+>>>>>>> myfeature/02
         var numberMultiply = numbers2.stream().filter(n->n<=10).map(n->n*2).toList();
         System.out.println(numberMultiply);
         System.out.println(numberMultiply.stream().count());
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> myfeature/02

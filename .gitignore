@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
@@ -27,3 +28,40 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+=======
+# Build output
+/out/
+target/
+build/
+
+# IntelliJ IDEA files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Logs
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Gradle
+.gradle/
+!gradle-wrapper.jar
+**/build/
+
+# Maven
+log/
+*.class
+*.jar
+*.war
+*.ear
+
+# Temporary files
+*.swp
+*.swo
+*~
+>>>>>>> myfeature/02
