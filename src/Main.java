@@ -21,8 +21,7 @@ public class Main {
 
         var numbersGreaterThan10= numbers2.stream().filter(num -> num>10).toList();
         System.out.println(numbersGreaterThan10);
-
-
+        
         var numberMultiply = numbers2.stream().filter(n->n<=10).map(n->n*2).toList();
         System.out.println(numberMultiply);
         System.out.println(numberMultiply.stream().count());
