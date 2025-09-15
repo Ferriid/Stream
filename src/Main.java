@@ -27,4 +27,4 @@ public class Main {
         System.out.println(numberMultiply);
         System.out.println(numberMultiply.stream().count());
     }
-}git remote add origin https://github.com/Ferriid/Stream.git
+}
